@@ -1,5 +1,6 @@
 import React from 'react';
-import { PostListContext } from './contexts/PostListContext';
+import PostListContext from './contexts/PostListContext';
+import PostsPage from './Components/Posts/PostsPage';
 function App() {
 
 const posts = [
@@ -10,8 +11,8 @@ const posts = [
   ];
   return (
     <>
-      <PostListContext.Provider value={posts}>
-        
+      <PostListContext.Provider value={{posts}}>
+        <PostsPage />
       </PostListContext.Provider>
 
     </>
