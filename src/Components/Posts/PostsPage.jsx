@@ -3,7 +3,7 @@ import PostsList from './PostsList'
 const PostsPage = () => {
   return (
     <>
-    <header>
+    <header className='mb-4'>
         <h1 className='text-center'>I NOSTRI POST</h1>
     </header>
     <main>
