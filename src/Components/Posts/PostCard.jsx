@@ -2,7 +2,7 @@ import React from 'react'
 
 const PostCard = ({post}) => {
   return (
-    <li key={post.id}>
+    <li key={post.id} className='list-group-item'>
           <h2>{post.title}</h2>
           <p>{post.content}</p>
           <p>{post.category}</p>

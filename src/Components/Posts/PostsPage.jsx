@@ -6,9 +6,13 @@ const PostsPage = () => {
     <header>
         <h1>I NOSTRI POST</h1>
     </header>
-    <div>
-      <PostsList />
-    </div>
+    <main>
+        <div className='container'>
+            <div className="row">
+                <PostsList />
+            </div>
+        </div>
+    </main>
     </>
   )
 }
