@@ -11,9 +11,11 @@ const posts = [
   ];
   return (
     <>
-      <PostListContext.Provider value={{posts}}>
-        <PostsPage />
-      </PostListContext.Provider>
+      <body className='bg-dark'>
+        <PostListContext.Provider value={{posts}}>
+          <PostsPage />
+        </PostListContext.Provider>  
+      </body>
 
     </>
   )

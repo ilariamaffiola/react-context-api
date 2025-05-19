@@ -4,7 +4,7 @@ const PostsPage = () => {
   return (
     <>
     <header className='my-4'>
-        <h1 className='text-center'>I NOSTRI POST</h1>
+        <h1 className='text-center text-light'>I NOSTRI POST</h1>
     </header>
     <main>
         <div className='container'>
