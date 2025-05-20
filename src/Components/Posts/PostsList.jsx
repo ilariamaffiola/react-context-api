@@ -8,7 +8,7 @@ const PostsList = () => {
     <div className='col-12'>
         <ul className='list-group'>
         {posts.map((post) => (
-            <PostCard post={post}/>
+            <PostCard  key={post.id} post={post}/>
         ))}
         </ul>
 

@@ -11,11 +11,10 @@ const posts = [
   ];
   return (
     <>
-      <body className='bg-dark'>
+  
         <PostListContext.Provider value={{posts}}>
           <PostsPage />
         </PostListContext.Provider>  
-      </body>
 
     </>
   )
